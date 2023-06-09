@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 # when the URL "/" is accessed, show Hello World
 @app.route("/")
-def hellow_world():
-    return "Hello World"
+def hello_world():
+    return render_template("home.html")
 
 print(__name__)
 
