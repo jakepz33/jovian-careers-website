@@ -1,2 +1,2 @@
-# jovian-careers-website
-A careers website for Jovian
+careers-website
+A mock-up careers website for Hearmework
