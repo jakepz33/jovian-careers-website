@@ -28,7 +28,7 @@ JOBS = [{
 # when the URL "/" is accessed, show Hello World
 @app.route("/")
 def hello_world():
-  return render_template("home.html", jobs=JOBS, company_name="Jovian")
+  return render_template("home.html", jobs=JOBS, company_name="HearMeWork")
 
 
 @app.route("/api/jobs")
